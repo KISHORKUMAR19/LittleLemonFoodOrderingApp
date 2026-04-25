@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "LittleLemonGo",
+    "slug": "LittleLemonGo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/Littlelemon_splash_icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    
+    "splash": {
+      "image": "./assets/images/Littlelemon_splash_icon.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+      
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "splash": {
+        "image": "./assets/images/Littlelemon_splash_icon.png",
+        "backgroundColor": "#ffffff",
+        "resizeMode": "cover",
+        "tabletImage": "./assets/images/Littlelemon_splash_icon.png"
+        
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "splash": {
+        "image": "./assets/images/Littlelemon_splash_icon.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#ffffff"
+        
+
+      }
+    },
+    "web": {
+      "favicon": "assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-sqlite"
+    ]
+  }
+}
